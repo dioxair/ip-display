@@ -5,3 +5,10 @@ $.getJSON('https://api.ipdata.co?api-key=' + apiKey, function(data) {
     let clientIP = ipdataJSON.ip
     document.getElementById("ip-button").innerText = clientIP
 });
+
+function copyIP() {
+  let copyText = document.getElementById("ip-button").innerText
+    navigator.clipboard.writeText(copyText).then(() => {
+        alert("Copied your IP Address to clipboard!"); 
+    });
+}
