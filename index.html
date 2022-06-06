@@ -8,6 +8,7 @@
 
     <title>IP Display</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="styling.css">
 	</head>
 	<body>
@@ -15,12 +16,12 @@
 			<div class="row text-center">
 				<div class="col-lg-12">
           <p>Your (Public) IP Address</p>
-          <button id="ip-button" type="button">1.1.1.1</button>
+          <button id="ip-button" type="button" onclick="copyIP()">1.1.1.1</button>
           <p>&nbsp;</p>
-          <p>Click to copy - Don't want your IP address shown to websites? Use <a href="https://protonvpn.com/">Proton VPN!</p>
+          <p>Click to copy - Don't want your IP address shown to websites? Use <a href="https://protonvpn.com/">Proton VPN!</a></p>
 				</div>
 			</div>
 		</div>
+    <script src="ip-display.js"></script>
 	</body>
 </html>
-
