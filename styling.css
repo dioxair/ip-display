@@ -6,14 +6,14 @@ html {
  body {
      margin: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     background: #181620;
+     background: #232222;
      perspective: 500px;
-	 color: #b09e99;
+	 color: #ffdab9;
 }
 
 #ip-button {
-  color: #b09e99;
-  border: 2.5px solid #b09e99;
+  color: #ffdab9;
+  border: 2.5px solid #ffdab9;
   border-radius: 15px;
   background-color: transparent;
   font-size: 135px;
